@@ -11,12 +11,13 @@
 		0D4A96222A26902F002BFC92 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4A96212A26902F002BFC92 /* RecipeTabView.swift */; };
 		0D9DF4E62A2655E800E69EBB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9DF4E52A2655E800E69EBB /* DataService.swift */; };
 		0DB0B5A82A158F7600205180 /* Challenger_MVVM_Prt_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0B5A72A158F7600205180 /* Challenger_MVVM_Prt_2App.swift */; };
-		0DB0B5AA2A158F7600205180 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0B5A92A158F7600205180 /* ContentView.swift */; };
+		0DB0B5AA2A158F7600205180 /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0B5A92A158F7600205180 /* RecipeListView.swift */; };
 		0DB0B5AC2A158F7B00205180 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB0B5AB2A158F7B00205180 /* Assets.xcassets */; };
 		0DB0B5AF2A158F7B00205180 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DB0B5AE2A158F7B00205180 /* Preview Assets.xcassets */; };
 		0DB0B5BB2A15914A00205180 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0B5BA2A15914900205180 /* Recipe.swift */; };
 		0DB0B5BD2A1591BE00205180 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB0B5BC2A1591BE00205180 /* RecipeModel.swift */; };
 		0DB0B5BF2A169A9C00205180 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DB0B5BE2A169A9C00205180 /* data.json */; };
+		0DD034BA2A2FEB0E00BD9FCC /* RecipeFeaturedVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD034B92A2FEB0E00BD9FCC /* RecipeFeaturedVIew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,12 +26,13 @@
 		0D9DF4E52A2655E800E69EBB /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		0DB0B5A42A158F7600205180 /* Challenger MVVM Prt 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenger MVVM Prt 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DB0B5A72A158F7600205180 /* Challenger_MVVM_Prt_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenger_MVVM_Prt_2App.swift; sourceTree = "<group>"; };
-		0DB0B5A92A158F7600205180 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0DB0B5A92A158F7600205180 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
 		0DB0B5AB2A158F7B00205180 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DB0B5AE2A158F7B00205180 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0DB0B5BA2A15914900205180 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		0DB0B5BC2A1591BE00205180 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		0DB0B5BE2A169A9C00205180 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		0DD034B92A2FEB0E00BD9FCC /* RecipeFeaturedVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeaturedVIew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				0D4A96212A26902F002BFC92 /* RecipeTabView.swift */,
-				0DB0B5A92A158F7600205180 /* ContentView.swift */,
+				0DD034B92A2FEB0E00BD9FCC /* RecipeFeaturedVIew.swift */,
+				0DB0B5A92A158F7600205180 /* RecipeListView.swift */,
 				0D4A961F2A26884D002BFC92 /* RecipeDetail.swift */,
 			);
 			path = Views;
@@ -198,10 +201,11 @@
 			files = (
 				0DB0B5BB2A15914A00205180 /* Recipe.swift in Sources */,
 				0DB0B5BD2A1591BE00205180 /* RecipeModel.swift in Sources */,
-				0DB0B5AA2A158F7600205180 /* ContentView.swift in Sources */,
+				0DB0B5AA2A158F7600205180 /* RecipeListView.swift in Sources */,
 				0DB0B5A82A158F7600205180 /* Challenger_MVVM_Prt_2App.swift in Sources */,
 				0D4A96202A26884D002BFC92 /* RecipeDetail.swift in Sources */,
 				0D9DF4E62A2655E800E69EBB /* DataService.swift in Sources */,
+				0DD034BA2A2FEB0E00BD9FCC /* RecipeFeaturedVIew.swift in Sources */,
 				0D4A96222A26902F002BFC92 /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

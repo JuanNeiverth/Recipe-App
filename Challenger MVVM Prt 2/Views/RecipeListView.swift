@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  RecipeListView.swift
 //  Challenger MVVM Prt 2
 //
 //  Created by Juan on 17/05/23.
@@ -10,8 +10,8 @@ import SwiftUI
 
 struct RecipeListView: View {
     
-    // Reference the view model
-    @ObservedObject var model = RecipeModel()
+    
+    @EnvironmentObject var model:RecipeModel
     
     var body: some View {
         
