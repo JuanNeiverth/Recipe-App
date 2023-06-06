@@ -11,7 +11,7 @@ import SwiftUI
 struct Challenger_MVVM_Prt_2App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeTabView()
         }
     }
 }
