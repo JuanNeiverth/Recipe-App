@@ -64,9 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				0DB0B5A72A158F7600205180 /* Challenger_MVVM_Prt_2App.swift */,
-				0DB0B5B62A158F9200205180 /* Models */,
-				0DB0B5B72A158F9900205180 /* ViewModels */,
 				0DB0B5B52A158F8A00205180 /* Views */,
+				0DB0B5B72A158F9900205180 /* ViewModels */,
+				0DB0B5B62A158F9200205180 /* Models */,
 				0DB0B5B92A158FA700205180 /* Services */,
 				0DB0B5B82A158FA000205180 /* Data */,
 				0DB0B5AD2A158F7B00205180 /* Preview Content */,
